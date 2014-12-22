@@ -23,7 +23,7 @@
 #================================================
 
 CC     = gcc -std=c99
-CFLAGS = -Wall -Wextra -pedantic -g
+CFLAGS = -Wall -Wextra -pedantic -O2 -g
 #CFLAGS = -Os -fomit-frame-pointer -DNDEBUG
 PIC    = -fpic
 LFLAGS = -lm 
